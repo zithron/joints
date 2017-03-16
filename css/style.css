@@ -1,0 +1,504 @@
+html,
+body {
+    z-index: 0;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+/* rain */
+
+
+/*
+.box {
+    border: solid 1px black;
+    width: 1024px;
+    height: 360px;
+    background: linear-gradient(#304269, #40588C);
+    position: relative;
+    margin: 0px;
+}
+*/
+
+.box .smallrain {
+    width: 2px;
+    height: 20px;
+    background-color: #D9E8F5;
+    opacity: 0;
+    animation: smallrain 4s infinite;
+    animation-timimg-function: ease-in;
+}
+
+.box .rain {
+    width: 3px;
+    height: 30px;
+    background-color: #D9E8F5;
+    opacity: 0.5;
+    animation: rain 5s infinite;
+    animation-timimg-function: ease-in;
+    opacity: 0;
+}
+
+.box .smallrain1 {
+    position: absolute;
+    left: 1002px;
+    animation-delay: 0.7s;
+}
+
+.box .smallrain2 {
+    position: absolute;
+    left: 10px;
+    animation-delay: 0.5s;
+}
+
+.box .smallrain3 {
+    position: absolute;
+    left: 210px;
+    animation-delay: 3s;
+}
+
+.box .smallrain4 {
+    position: absolute;
+    left: 500px;
+    animation-delay: 1s;
+}
+
+.box .smallrain5 {
+    position: absolute;
+    left: 780px;
+    animation-delay: 4s;
+}
+
+.box .smallrain6 {
+    position: absolute;
+    left: 123px;
+    animation-delay: 7s;
+}
+
+.box .smallrain7 {
+    position: absolute;
+    left: 200px;
+    animation-delay: 3s;
+}
+
+.box .smallrain8 {
+    position: absolute;
+    left: 300px;
+    animation-delay: 2s;
+}
+
+.box .smallrain9 {
+    position: absolute;
+    left: 460px;
+    animation-delay: 4s;
+}
+
+.box .smallrain10 {
+    position: absolute;
+    left: 90px;
+    animation-delay: 7.8s;
+}
+
+.box .smallrain11 {
+    position: absolute;
+    left: 670px;
+    animation-delay: 3.2s;
+}
+
+.box .smallrain12 {
+    position: absolute;
+    left: 70px;
+    animation-delay: 2.6s;
+}
+
+.box .smallrain13 {
+    position: absolute;
+    left: 30px;
+    animation-delay: 4.7s;
+}
+
+.box .smallrain14 {
+    position: absolute;
+    left: 320px;
+    animation-delay: 7.6s;
+}
+
+.box .smallrain15 {
+    position: absolute;
+    left: 120px;
+    animation-delay: 3.5s;
+}
+
+.box .smallrain16 {
+    position: absolute;
+    left: 45px;
+    animation-delay: 2.1s;
+}
+
+.box .smallrain17 {
+    position: absolute;
+    left: 690px;
+    animation-delay: 4s;
+}
+
+.box .smallrain18 {
+    position: absolute;
+    left: 60px;
+    animation-delay: 2.7s;
+}
+
+.box .smallrain19 {
+    position: absolute;
+    left: 430px;
+    animation-delay: 3s;
+}
+
+.box .smallrain20 {
+    position: absolute;
+    left: 320px;
+    animation-delay: 2s;
+}
+
+.box .rain1 {
+    position: absolute;
+    left: 78px;
+    animation-delay: 0.7s;
+}
+
+.box .rain2 {
+    position: absolute;
+    left: 1000px;
+    animation-delay: 0.5s;
+}
+
+.box .rain3 {
+    position: absolute;
+    left: 500px;
+    animation-delay: 3s;
+}
+
+.box .rain4 {
+    position: absolute;
+    left: 300px;
+    animation-delay: 1s;
+}
+
+.box .rain5 {
+    position: absolute;
+    left: 200px;
+    animation-delay: 3.1s;
+}
+
+.box .rain6 {
+    position: absolute;
+    left: 700px;
+    animation-delay: 6s;
+}
+
+.box .rain7 {
+    position: absolute;
+    left: 760px;
+    animation-delay: 3.3s;
+}
+
+.box .rain8 {
+    position: absolute;
+    left: 450px;
+    animation-delay: 2s;
+}
+
+.box .rain9 {
+    position: absolute;
+    left: 850px;
+    animation-delay: 4.8s;
+}
+
+.box .rain10 {
+    position: absolute;
+    left: 900px;
+    animation-delay: 7.8s;
+}
+
+.box .rain11 {
+    position: absolute;
+    left: 760px;
+    animation-delay: 3.1s;
+}
+
+.box .rain12 {
+    position: absolute;
+    left: 670px;
+    animation-delay: 2.8s;
+}
+
+.box .rain13 {
+    position: absolute;
+    left: 30px;
+    animation-delay: 4.7s;
+}
+
+.box .rain14 {
+    position: absolute;
+    left: 320px;
+    animation-delay: 7.6s;
+}
+
+.box .rain15 {
+    position: absolute;
+    left: 120px;
+    animation-delay: 3.5s;
+}
+
+.box .rain16 {
+    position: absolute;
+    left: 45px;
+    animation-delay: 2.1s;
+}
+
+.box .rain17 {
+    position: absolute;
+    left: 690px;
+    animation-delay: 4s;
+}
+
+.box .rain18 {
+    position: absolute;
+    left: 60px;
+    animation-delay: 2.7s;
+}
+
+.box .rain19 {
+    position: absolute;
+    left: 430px;
+    animation-delay: 3s;
+}
+
+.box .rain20 {
+    position: absolute;
+    left: 320px;
+    animation-delay: 2s;
+}
+
+
+/*
+.box p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #91BED4;
+    opacity: 0.4;
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+*/
+
+@keyframes rain {
+    0% {
+        bottom: 1100px;
+        opacity: 0.7;
+    }
+    50% {
+        bottom: -100px;
+        opacity: 0.7;
+    }
+    100% {
+        bottom: -750px;
+        opacity: 0.7;
+    }
+}
+
+@keyframes smallrain {
+    0% {
+        bottom: 1024px;
+        opacity: 0.2;
+    }
+    50% {
+        bottom: -200px;
+        opacity: 0.2;
+    }
+    100% {
+        bottom: -400px;
+        opacity: 0.2;
+    }
+}
+
+
+/*main*/
+
+.main {
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background: #3F51B5;
+}
+
+
+/*main content*/
+
+.main-content {
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+
+.main-content p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*logo*/
+
+.logo {
+    width: 150px;
+    height: auto;
+    position: relative;
+    margin-top: -120px;
+    padding-bottom: 30px;
+}
+
+
+/* mail */
+
+.mail {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #3F51B5;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    color: #3F51B5;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* social media */
+
+.sosmed {
+    padding-top: 10px;
+}
+
+.sosmed span {
+    margin: 20px;
+    font-size: 15px;
+}
+
+.sosmed a {
+    color: white;
+    cursor: pointer
+}
+
+
+/* background-animation */
+
+.kota {
+    -webkit-animation-name: kuto;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 3s;
+    /*    -webkit-animation-direction: alternate;*/
+    -moz-animation-name: kuto;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-delay: 3s;
+    animation-name: kuto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    background-image: url(../img/layer1.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes kuto {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        background-image: url(../img/layer1.png), url(../img/layer2.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+    75% {
+        background-image: url(../img/layer1.png), url(../img/layer2.png), url(../img/layer3.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+    100% {
+        background-image: url(../img/layer1.png), url(../img/layer2.png), url(../img/layer3.png), url(../img/layer4.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+}
+
+@-moz-keyframes kuto {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        background-image: url(../img/layer1.png), url(../img/layer2.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+    75% {
+        background-image: url(../img/layer1.png), url(../img/layer2.png), url(../img/layer3.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+    100% {
+        background-image: url(../img/layer1.png), url(../img/layer2.png), url(../img/layer3.png), url(../img/layer4.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+}
+
+@keyframes kuto {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        background-image: url(../img/layer1.png), url(../img/layer2.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+    75% {
+        background-image: url(../img/layer1.png), url(../img/layer2.png), url(../img/layer3.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+    100% {
+        background-image: url(../img/layer1.png), url(../img/layer2.png), url(../img/layer3.png), url(../img/layer4.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+    }
+}
+
+
+/* media query */
+
+@media screen and (min-width:500px) {
+    h1 {
+        font-size: 48px;
+    }
+}
